@@ -1,0 +1,42 @@
+body {
+  max-resolution: 0;
+  backgroundcolor: whitesmoke;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441a5; /*fallback for old browsers*/
+  background: -webkit-linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /*Chrome, safari, opera*/
+}
+
+header .img {
+  height: 80%;
+  margin-left: 10%;
+}
+
+header > p {
+  font-famiy: VT323, monospace;
+  color: whitesmoke;
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme > h2 {
+  position: absolute;
+}
