@@ -10,7 +10,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-script start",
+    "build": "react-script build",
+    "test": "react-script test --env=jsdom",
+    "eject": "react-script eject"
   },
   "repository": {
     "type": "git",
